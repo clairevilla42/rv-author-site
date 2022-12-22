@@ -98,9 +98,26 @@ header h2 {
         margin-top: 20px;
 }
 
-/*** for about page ***/
+/*** for books page ***/
 
+#books {
+    background-color: #85586F;
+    color: #F8EDE3;
 
+}
+
+#books p {
+    text-align: left;
+    font-size: 28px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#books h2 {
+    text-align: center;
+    font-size: 42px;
+
+}
 
 /*** footer ***/
 #footer {
