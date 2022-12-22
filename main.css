@@ -29,6 +29,13 @@ body {
     color: #85586F;
 }
 
+header h2 {
+    float: left;
+    color: #85586F;
+    font-size: 28px;
+    margin-left: 30px;
+}
+
 #header ul {
     list-style: none;
     float: right;
@@ -37,6 +44,7 @@ body {
 #header ul li {
     display: inline-block;
     padding-right: 48px;
+    padding-top: 15px;
 }
 
 #header h1 {
@@ -87,8 +95,12 @@ body {
 
 #about p {
         font-size: 36px;
-        margin-top: -20px;
+        margin-top: 20px;
 }
+
+/*** for about page ***/
+
+
 
 /*** footer ***/
 #footer {
