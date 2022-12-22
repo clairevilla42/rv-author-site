@@ -24,6 +24,11 @@ body {
 }
 
 /*** header ***/
+#header {
+    background-color: #F8EDE3;
+    color: #85586F;
+}
+
 #header ul {
     list-style: none;
     float: right;
@@ -38,7 +43,7 @@ body {
     font-family: 'Times New Roman', serif;
     font-size: 80px;
     text-align: center;
-    color: #3B185F;
+    color: #85586F;
     font-weight: bold;
     margin-left: 100px;
 }
@@ -48,21 +53,26 @@ body {
     font-size: 48px;
     color: #85586F;
     text-align: center;
+    background-color: #F8EDE3;
 }
 
+/*** use for a hero image
 .homepage-hero {
     background: url(full-background.png);
     background-size: cover;
     background-position: center;
 }
+***/
+
 
 /*** about ***/
 #about {
-    background-color: bisque;
+    background-color: #85586F;
+    color: #F8EDE3;
 }
 
 #about img {
-    border: 12px solid #ffffff;
+    border: 12px solid #F8EDE3;
     max-width: 400px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -82,7 +92,7 @@ body {
 
 /*** footer ***/
 #footer {
-    background-color: #85586F;
+    background-color: #D0B8A8;
     color: #ffffff;
 }
 
